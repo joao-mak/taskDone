@@ -1,0 +1,189 @@
+{
+  "groups": [
+    {
+      "name": "slough",
+      "password": "davidbowie123",
+      "users": [
+        "David Brent",
+        "Dawn Tinsley",
+        "Tim Canterbury",
+        "Gareth Keenan"
+      ],
+      "tasks": [
+        {
+          "created_at": "0123911230",
+          "description": "you have to be an inspirational leader to these people!",
+          "title": "be an inspirational leader",
+          "deadline": "20/10/2020",
+          "attachments": "attachment.jpg",
+          "assigned_to": "David Brent"
+        },
+        {
+          "created_at": "0123911231",
+          "description": "but also be their friend, because you can do both",
+          "title": "be a friend",
+          "deadline": "20/10/2020",
+          "attachments": "attachment.jpg",
+          "assigned_to": "David Brent"
+        },
+        {
+          "created_at": "0123911231",
+          "description": "not a priority, really.... but if you have time, do some actual work",
+          "title": "actually work",
+          "deadline": "20/10/2020",
+          "attachments": "attachment.jpg",
+          "assigned_to": "Gareth Keenan"
+        }
+      ]
+    },
+    {
+      "name": "scranton",
+      "password": "waynegretzky123",
+      "users": ["Michael Scott", "Jim Halpert", "Pam Beesly", "Dwight Schrute"],
+      "tasks": [
+        {
+          "created_at": "0123911232",
+          "description": "bears, beets, battlestar galatcica",
+          "title": "make fun of dwight",
+          "deadline": "20/10/2020",
+          "attachments": "attachment.jpg",
+          "assigned_to": "Jim Halpert"
+        },
+        {
+          "created_at": "0123911233",
+          "description": "I suppose you have to do something on your free time",
+          "title": "sell paper",
+          "deadline": "20/10/2020",
+          "attachments": "attachment.jpg",
+          "assigned_to": "Dwight Schrute"
+        },
+        {
+          "created_at": "0123911234",
+          "description": "this is the priority. or maybe not. but try and be a good boss today",
+          "title": "be a good boss",
+          "deadline": "20/10/2020",
+          "attachments": "attachment.jpg",
+          "assigned_to": "Michael Scott"
+        },
+        {
+          "created_at": "0123911235",
+          "description": "pick up the phone! it's not that hard!",
+          "title": "answer phone",
+          "deadline": "20/10/2020",
+          "attachments": "attachment.jpg",
+          "assigned_to": "Pam Beesly"
+        }
+      ]
+    },
+    {
+      "name": "other",
+      "password": "otherpassword123",
+      "users": [],
+      "tasks": []
+    }
+  ],
+  "users": [
+    {
+      "username": "David Brent",
+      "avatar": "https://www.96fm.com.au/wp-content/uploads/sites/8/2020/03/David-Brent-Rob-Locke.jpg?crop=5px,57px,586px,703px&resize=680,816&quality=75",
+      "tasks": [
+        {
+          "created_at": "0123911230",
+          "description": "this",
+          "title": "be an inspirational leader",
+          "deadline": "20/10/2020",
+          "attachments": "attachment.jpg",
+          "assigned_to": "David Brent"
+        },
+        {
+          "created_at": "0123911231",
+          "description": "this",
+          "title": "be a friend",
+          "deadline": "20/10/2020",
+          "attachments": "attachment.jpg",
+          "assigned_to": "David Brent"
+        }
+      ]
+    },
+    {
+      "username": "Gareth Keenan",
+      "avatar": "https://pbs.twimg.com/profile_images/2555190358/f0uxlurl1ej2ugefl8l5.jpeg",
+      "tasks": [
+        {
+          "created_at": "0123911231",
+          "description": "not a priority, really.... but if you have time, do some actual work",
+          "title": "actually work",
+          "deadline": "20/10/2020",
+          "attachments": "attachment.jpg",
+          "assigned_to": "Gareth Keenan"
+        }
+      ]
+    },
+    {
+      "username": "Dawn Tinsley",
+      "avatar": "https://vignette.wikia.nocookie.net/characters/images/c/c1/Dawn_Tinsley.jpg/revision/latest/top-crop/width/360/height/450?cb=20151214172323",
+      "tasks": []
+    },
+    {
+      "username": "Tim Canterbury",
+      "avatar": "https://i.pinimg.com/originals/bd/7c/03/bd7c031fa470615ba72f2b4699f01fec.jpg",
+      "tasks": []
+    },
+    {
+      "username": "Michael Scott",
+      "avatar": "https://upload.wikimedia.org/wikipedia/en/d/dc/MichaelScott.png",
+      "tasks": [
+        {
+          "created_at": "0123911234",
+          "description": "this is the priority. or maybe not. but try and be a good boss today",
+          "title": "be a good boss",
+          "deadline": "20/10/2020",
+          "attachments": "attachment.jpg",
+          "assigned_to": "Michael Scott"
+        }
+      ]
+    },
+    {
+      "username": "Pam Beesly",
+      "avatar": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Pam_Beesley.jpg/220px-Pam_Beesley.jpg",
+      "tasks": [
+        {
+          "created_at": "0123911235",
+          "description": "pick up the phone! it's not that hard!",
+          "title": "answer phone",
+          "deadline": "20/10/2020",
+          "attachments": "attachment.jpg",
+          "assigned_to": "Pam Beesly"
+        }
+      ]
+    },
+    {
+      "username": "Jim Halpert",
+      "avatar": "https://vignette.wikia.nocookie.net/theoffice/images/e/e9/Character_-_JimHalpert.PNG/revision/latest/top-crop/width/360/height/360?cb=20200414162003",
+      "tasks": [
+        {
+          "created_at": "0123911232",
+          "description": "bears, beets, battlestar galatcica",
+          "title": "make fun of dwight",
+          "deadline": "20/10/2020",
+          "attachments": "attachment.jpg",
+          "assigned_to": "Jim Halpert"
+        }
+      ]
+    },
+    {
+      "username": "Dwight Schrute",
+      "avatar": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Dwight_Schrute.jpg/220px-Dwight_Schrute.jpg",
+      "tasks": [
+        {
+          "created_at": "0123911233",
+          "description": "I suppose you have to do something on your free time",
+          "title": "sell paper",
+          "deadline": "20/10/2020",
+          "attachments": "attachment.jpg",
+          "assigned_to": "Dwight Schrute"
+        }
+      ]
+    }
+  ]
+}
